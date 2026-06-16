@@ -334,12 +334,11 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 20px;
 }
 
-/* CÍRCULO */
 .asesora-img {
-    width: 95px;
-    height: 95px;
+    width: 105px;
+    height: 140px; /* más alto que ancho */
 
-    border-radius: 50%;
+    border-radius: 12px; /* ya no círculo, solo bordes suaves */
     overflow: hidden;
 
     border: 4px solid #fff;
